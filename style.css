@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    font-family:sans-serif", 游ゴシック Medium" ,'Marcellus', serif,"游ゴシック体", YuGothic, "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ";
+	background-color: #FCF8F5;
+	color: #68423C;
+	font-size:1rem;
+	line-height:1.85;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%; 
+	word-wrap: break-word;
+}
+#slider h1{
+	color: #fff;
+	font-size: 1.5em;
+    font-weight: 700;
+}
+
+/*main*/
+
+.main h2{
+	font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+	margin-bottom: 5%;
+}
+.main h3{
+	font-weight: bold;
+}
+p{
+	font-size: 0.8em;
+}
+.btn{
+	width: 220px;
+    height: 48px;
+    border-radius: 4px;
+    background: #68423c;
+    margin: auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 48px;
+}
+.sm_font{
+	font-size: 0.8em;
+	font-weight: 100;
+}
+.bg_font{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+/* header */
+header h1{
+	text-align: center;
+	line-height: 400px;
+}
+.info,.concept,.new_item,.item_wrap,.resev{
+	margin: 0 5% 30%;
+}
+.info ul li{
+    display: flex;
+    align-items: center;
+}
+.info ul li h5{
+	font-size: 0.8em;
+}
+.info ul li p{
+	padding-left: 10px;
+}
+.sec1{
+	margin-bottom: 5%;
+}
+.sec1 h3 {
+	padding-bottom: 3%;
+	line-height: 1.7;
+}
+.sec1 p{
+	margin-bottom: 5%;
+}
+/* 商品 */
+.item_new,.item_new h4,.item_new p,.item_wrap li h4,.item_wrap li p {
+	text-align: center;
+}
+.item_new img,.item_new h4,.item_wrap li img{
+	padding-bottom: 5%;
+}
+.item_wrap ul{
+display: flex;
+gap: 32px;
+flex-wrap: wrap;
+}
+.item_wrap li{
+  width: calc((100% - 32px) / 2);
+  box-sizing: border-box;
+}
+.resev_btm{
+	display: flex;
+	gap: 3%;
+	align-items: end;
+}
+.resev_btm img{
+	width: 50%;
+}
+.resev_add{
+	font-size: 0.8em;
+}
+.tel::before {
+  content: url("img/Phone.jpg");
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.mail::before {
+  content: url("img/Messages.jpg");
+  vertical-align: middle;
+  padding-right: 5px;
+}
+small {
+    position: absolute;
+    left: 20px;
+    top: 5%;
+    color: #fff;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+#footer{
+	background-color: #68423C;
+	color: #fff;
+	padding: 10% 0 10%;
+	display: flex;
+    align-items: end;
+}
+.sns ul{
+	display: flex;
+}
+.sns ul li{
+	padding: 0 5% 0 0;
+}
+.add p{
+	font-size:0.7rem;
+	text-align: right;
+}
+.add h2{
+	font-size:1.5rem;
+	text-align: right;
+}
+.footer_nuv{
+	padding: 0 0 0 5%;
+	font-size: 1rem;
+    width: 30%;
+}
+.footer_buttom{
+	padding:  0 5% 0 0;
+	font-size: 0.8rem;
+    width: 70%;
+}
