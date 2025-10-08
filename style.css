@@ -171,7 +171,7 @@ small {
 	}
 	.sec1{
 		width: 43%;
-		padding: 5%;
+		padding: 5% 5% 0;
 	}
 	.sec1 img{
 		width: 100%;
@@ -179,13 +179,16 @@ small {
 	.concept_inner{
 		display: flex;
 	}
-	.info{
+	.info,.resev_tet{
 	    width: 500px;
         margin: 0 auto;
 		margin-bottom: 10%;
 	}
 	.concept,.new_item,.item_wrap,.resev{
 	    margin: 0 5% 10%;
+}
+	.item_wrap ul{
+        gap: 5px;
 }
 	.item_wrap li{
         width: calc((100% - 32px) / 4);
