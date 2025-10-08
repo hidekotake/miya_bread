@@ -13,7 +13,7 @@
     /*ナビのスタート位置と形状*/
 	top:0;
     right: -100%;
-	width:30%;
+	width:100%;
     height: 100vh;/*ナビの高さ*/
 	background:  #FCF8F5;
     /*動き*/
